@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="card">
+  <div class="content">
+    <p>Public key fingerprint: <code>{{pubfp}}</code></p>
+    <p>Private key fingerprint: <code>{{privfp}}</code></p>
+    <p>Seed: <code class="autobreak">{{seed}}</code></p>
+    <p>Ed25519 seed fingerprint: <code>{{edseed}}</code></p>
+  </div>
+</div>
+{% endblock body %}

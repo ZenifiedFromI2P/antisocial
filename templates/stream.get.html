@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+{% for post in hits %}
+<div class="card">
+  <div class="content">
+    <p>Alleged message from "{{post.gangsta.name}}" (KeyHash: <code>{{post.KH}}</code>)</p>
+    <p>Content: <pre><code>{{post.msg}}</code></pre></p>
+    {% if post.image %}
+      <img src="data:image/png;base64,{{post.image}}" alt="Invalid Img embedded, move on" />
+    {% endif %}
+  </div>
+</div>
+<br><br><br>
+{% endfor %}
+{% endblock %}

@@ -1,0 +1,6 @@
+Django==1.8.16
+requests
+pynacl
+cryptography
+requests[socks]
+toml

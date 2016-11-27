@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+<hr>
+<div class="card">
+  <div class="content">
+    <p>Viewing the feed for {{key}}</p>
+    <p>User has {{hits|length}} creets (Cryptographically signed tweets)</p>
+  </div>
+</div>
+<hr>
+{% for post in hits %}
+<div class="card">
+  <div class="content">
+    <p><pre>{{post}}</pre></p>
+  </div>
+</div>
+<hr>
+{% endfor %}
+{% endblock %}

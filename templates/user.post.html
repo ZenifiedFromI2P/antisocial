@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="card">
+  <div class="content">
+    <p>Public key fingerprint: <code>{{edkey_fp}}</code></p>
+    <p>Private key fingerprint: <code>{{cvkey_fp}}</code></p>
+    <p>GK<sub>s</sub> signature: <code>{{sig}}</code></p>
+  </div>
+</div>
+{% endblock body %}

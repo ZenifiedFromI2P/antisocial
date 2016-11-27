@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecuroBook</title>
+    {% load static from staticfiles %}
+    <link rel="stylesheet" href="{% static '/css/datbundle.min.css' %}">
+    <nav class="navbar navbar-default navbar-info">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">SecuroBook</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <!-- Streaming posts -->
+            <li><a href="/stream">Posts</a></li>
+            <!-- Add a new post -->
+            <li><a href="/new/post">New Post</a></li>
+            <!-- Create a new group -->
+            <li><a href="/new/group">New Group</a></li>
+            <!-- Flush keys and become new user, IDWIS -->
+            <li><a href="/new/user">Flush keys and become new user</a></li>
+            <li><a href="/new/feedpost">New creet for your feed</a></li>
+            <li><a href="/feeds/self">Read your feed</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+</nav>
+  </head>
+  <div class="wrapper">
+    <div class="header header-filter" style="background-color: #3498db;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <h1 class="title text-center">SecuroBook</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main main-raised">
+      {% block body %}{% endblock body %}
+    </div>
+  </div>
+  </body>
+</html>
