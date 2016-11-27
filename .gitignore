@@ -1,4 +1,4 @@
 config.toml
-*/__pycache__
+*/__pycache__/*
 error.html
 db.*

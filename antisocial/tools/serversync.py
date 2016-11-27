@@ -7,7 +7,7 @@ import json
 import sys
 
 
-baseurl = "http://localhost:6060"
+baseurl = "https://lc2w.i2vpn.eu"
 baseurl_tor = 'http://oat5zooqn3cd365v.onion'
 baseurl_i2p = 'http://lcfjoiulgyepizrl464rggjx6knjajsth4srem7aq3zeka6bzzta.b32.i2p'
 
