@@ -1,0 +1,8 @@
+--2016-11-28 10:30:25--  https://bitbucket.org/squeaky/portable-pypy/downloads/pypy3.3-5.5-alpha-20161013-linux_x86_64-portable.tar.bz2
+Resolving bitbucket.org (bitbucket.org)... 104.192.143.2
+Connecting to bitbucket.org (bitbucket.org)|104.192.143.2|:443... connected.
+HTTP request sent, awaiting response... 302 FOUND
+Location: https://bbuseruploads.s3.amazonaws.com/140b7b14-aa94-424e-b191-9cd3438381f7/downloads/b67dbfae-2adc-44be-8c95-b03d57c40f80/pypy3.3-5.5-alpha-20161013-linux_x86_64-portable.tar.bz2?Signature=QRP1K5dC0sbp3Gu4d40B%2BSiOWEg%3D&Expires=1480329061&AWSAccessKeyId=AKIAIVFPT2YJYYZY3H4A&versionId=qSVW2M_e1aTsTeK.GHFwZN0MroLT_cYa&response-content-disposition=attachment%3B%20filename%3D%22pypy3.3-5.5-alpha-20161013-linux_x86_64-portable.tar.bz2%22 [following]
+--2016-11-28 10:30:37--  https://bbuseruploads.s3.amazonaws.com/140b7b14-aa94-424e-b191-9cd3438381f7/downloads/b67dbfae-2adc-44be-8c95-b03d57c40f80/pypy3.3-5.5-alpha-20161013-linux_x86_64-portable.tar.bz2?Signature=QRP1K5dC0sbp3Gu4d40B%2BSiOWEg%3D&Expires=1480329061&AWSAccessKeyId=AKIAIVFPT2YJYYZY3H4A&versionId=qSVW2M_e1aTsTeK.GHFwZN0MroLT_cYa&response-content-disposition=attachment%3B%20filename%3D%22pypy3.3-5.5-alpha-20161013-linux_x86_64-portable.tar.bz2%22
+Resolving bbuseruploads.s3.amazonaws.com (bbuseruploads.s3.amazonaws.com)... 54.231.81.96
+Connecting to bbuseruploads.s3.amazonaws.com (bbuseruploads.s3.amazonaws.com)|54.231.81.96|:443... connected.

@@ -5,7 +5,7 @@ THENPWD=$(pwd)
 wget -o pypy.tar.bz2 $URL
 sha512sum pypy.tar.bz2 | grep 1cd7a00da376b2db29b3e1f3e9bb7a77afc8ad988b3f13fd0805f37b23960a34
 c=$?
-if [[ $c != 0 ]]; then
+if [[ ! $c -eq 0 ]]; then
   echo "MITM detected, the hash didn't match !!!"
   exit
 fi
