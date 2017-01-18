@@ -2,6 +2,7 @@ pypy.tar.bz2
 config.toml
 error.html
 db.*
+config.toml
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
