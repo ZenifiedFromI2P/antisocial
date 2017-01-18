@@ -1,7 +1,7 @@
 pypy.tar.bz2
 config.toml
 error.html
-db.*
+db.sqlite3
 config.toml
 # Byte-compiled / optimized / DLL files
 __pycache__/
