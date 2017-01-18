@@ -106,7 +106,10 @@ class UserKG(View):
         key = kdf.derive(password.encode())
         edkey = signfool.SigningKey(key[0:32]) # Use the first 32-bytes of the derived key as Edwards25519 seed
         cvkp = pubfool.PrivateKey(key[32:64]) # Use the second half as Curve25519 seed
-        sig = db.get('gks').sign(cvkp.public_key.encode(encoder=b64))
+        try:
+            sig = db.get('gks').sign(cvkp.public_key.encode(encoder=b64))
+        except KeyError:
+            return render(request, 'freakedup.html', {'err': "You are not part of a group, yet"})
         db.set("user-edkeys", edkey)
         db.set("user-cvkeys", cvkp)
         db.set("user-keysig", sig)
