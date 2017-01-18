@@ -1,4 +1,4 @@
-find * |& grep __pycache__ | rm -rfv $(cat -)
+find * |& grep __pycache__ | xargs rm -rfv
 rm db.*
 rm error.html
 rm config.toml
