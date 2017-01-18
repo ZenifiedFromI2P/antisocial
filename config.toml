@@ -1,3 +1,1 @@
-mode='tor'
-torhost = '192.168.0.3'
-torport = 1080
+mode='clearnet'
